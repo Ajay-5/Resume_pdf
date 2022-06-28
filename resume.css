@@ -8,27 +8,16 @@
 
 .container{
     display: flex;
-    /* display: grid; */
-    /* grid-template-areas: ' left-c  left-c  left-c right-c'; */
     margin: .5rem;
 }
 
-/* #left-c{
-    grid-area: left-c;
-    border: 3px double #000;
-}
-
-#right-c{
-    grid-area: right-c;
-    border: 3px double #fff; 
-} */
-
 .left-content{
     width: 70%;
-    /* background-color: #0000ff; */
-    background: rgb(2,0,36);
-    background: linear-gradient(128deg, rgba(2,0,36,1) 0%, rgba(2,2,64,1) 50%, rgba(2,0,36,1) 100%);
-    color: #fff;
+    /* background: rgb(2,0,36); */
+    /* background: linear-gradient(128deg, rgba(2,0,36,1) 0%, rgba(2,2,64,1) 50%, rgba(2,0,36,1) 100%); */
+    /* color: #fff; */
+    background-color: rgb(220, 218, 218);
+    color: #000;
     letter-spacing: 2px;
     border-radius: 10px;
     margin-right: 2px;
@@ -57,7 +46,8 @@
     font-weight: bold;
     margin: 0 3rem;
     padding: .5rem 2rem;
-    background-color: #000;
+    /* background-color: #000; */
+    background-color: rgb(135, 135, 135);
     font-size: 40px;
 }
 
@@ -81,7 +71,8 @@
     font-weight: bold;
     margin: 0 3rem;
     padding: .5rem 2rem;
-    background-color: #000;
+    /* background-color: #000; */
+    background-color: rgb(135, 135, 135);
     font-size: 40px;
 }
 
@@ -113,7 +104,8 @@
     font-weight: bold;
     margin: 0 3rem;
     padding: .5rem 2rem;
-    background-color: #000;
+    /* background-color: #000; */
+    background-color: rgb(135, 135, 135);
     font-size: 40px;
 }
 
@@ -129,7 +121,8 @@
 .list ul li a{
     text-decoration: none;
     font-size: 28px;
-    color: #fff;
+    /* color: #fff; */
+    color: #000;
 }
 
 .extra{
@@ -142,7 +135,8 @@
     font-weight: bold;
     margin: 0 3rem;
     padding: .5rem 2rem;
-    background-color: #000;
+    /* background-color: #000; */
+    background-color: rgb(135, 135, 135);
     font-size: 40px;
 }
 
@@ -173,7 +167,8 @@
     font-weight: bold;
     margin: 0 3rem;
     padding: .5rem 2rem;
-    background-color: #000;
+    /* background-color: #000; */
+    background-color: rgb(135, 135, 135);
     font-size: 40px;
 }
 
@@ -185,7 +180,8 @@
 }
 
 .right-content{
-    background-color: #000;
+    /* background-color: #000; */
+    background-color: rgb(85, 83, 83);
     border-radius: 10px;
     width: 30%;
 }
@@ -197,11 +193,13 @@
     /* border-radius: 50%; */
     border-radius: 5px 30px;
     margin: 5rem auto 1rem auto;
-    border: 3px solid #fff;
+    /* border: 3px solid #fff; */
+    border: 3px solid black;
 }
 
 .right-content h1{
-    color: #fff;
+    /* color: #fff; */
+    color: #000;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 6rem;
@@ -211,7 +209,8 @@
 /* Skills */
 
 .skill{
-    color: #fff;
+    /* color: #fff; */
+    color: #000;
     margin: 3rem 0 2rem 0;
     /* border: 2px solid red; */
     text-transform: uppercase;
@@ -230,12 +229,14 @@
     /* margin: 1rem 0 1rem 3rem; */
     margin: .5rem 2rem 2rem 2rem;
     width: 80%;
-    background-color: #fff;
+    /* background-color: #fff; */
+    background-color: rgb(220, 218, 218);
 }
 
 .hs, .cs, .rs, .js, .gs{
     height: 25px;
-    background-color: #020260;
+    /* background-color: #020260; */
+    background-color: #000;
 }
 
 .hs{
@@ -267,7 +268,8 @@
 /* Languages */
 
 .lang{
-    color: #fff;
+    /* color: #fff; */
+    color: #000;
     margin: 4rem 0 2rem 0;
     /* border: 2px solid orange; */
     text-transform: uppercase;
@@ -286,13 +288,14 @@
     /* margin: 1rem 0 1rem 3rem; */
     margin: .5rem 2rem 2rem 2rem;
     width: 80%;
-    background-color: #fff;
+    /* background-color: #fff; */
+    background-color: rgb(220, 218, 218);
 }
 
 .kl, .el, .hl{
     height: 25px;
-    /* background-color: #0000ff; */
-    background-color: #020260;
+    /* background-color: #020260; */
+    background-color: #000;
 }
 
 .kl{
@@ -314,7 +317,8 @@
 }
 
 .contact{
-    color: #fff;
+    /* color: #fff; */
+    color: #000;
     margin: 4rem .5rem;
     /* border: 2px solid red; */
     letter-spacing: 2px;
@@ -332,7 +336,8 @@
     display: flex;
     text-decoration: none;
     margin-left: .2rem;
-    color: #fff;
+    /* color: #fff; */
+    color: #000;
 }
 
 .contact p{
