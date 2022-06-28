@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container */
+
+.container{
+    display: flex;
+    /* display: grid; */
+    /* grid-template-areas: ' left-c  left-c  left-c right-c'; */
+    margin: .5rem;
+}
+
+/* #left-c{
+    grid-area: left-c;
+    border: 3px double #000;
+}
+
+#right-c{
+    grid-area: right-c;
+    border: 3px double #fff; 
+} */
+
+.left-content{
+    width: 70%;
+    /* background-color: #0000ff; */
+    background: rgb(2,0,36);
+    background: linear-gradient(128deg, rgba(2,0,36,1) 0%, rgba(2,2,64,1) 50%, rgba(2,0,36,1) 100%);
+    color: #fff;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    margin-right: 2px;
+}
+
+.left-content h1{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 4rem 0 3rem 0;
+    font-size: 2.5rem;
+    /* border-bottom: 5px double #fff; */
+    padding-bottom: 1rem;
+    font-size: 50px;
+}
+
+/* Profile */
+
+.profile{
+    /* border: 2px solid darkgreen; */
+    margin: 1rem 0;
+}
+
+.profile h2{
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin: 0 3rem;
+    padding: .5rem 2rem;
+    background-color: #000;
+    font-size: 40px;
+}
+
+.profile p{
+    margin: 1rem 3rem 0 3rem;
+    font-size: 28px;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+/* Education */
+
+.education{
+    margin: 3rem 0;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+.education h2{
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin: 0 3rem;
+    padding: .5rem 2rem;
+    background-color: #000;
+    font-size: 40px;
+}
+
+.cls{
+    margin: 1rem 3rem;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-size: bold;
+}
+
+.uname, .year{
+    margin: 1rem 0 1rem 5rem;
+    font-size: 27px;
+}
+
+.pu{
+    margin: 2rem 0;
+}
+
+/* .portfolio */
+
+/* .portfolio{
+    border: 2px solid red;
+} */
+
+.portfolio h2{
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin: 0 3rem;
+    padding: .5rem 2rem;
+    background-color: #000;
+    font-size: 40px;
+}
+
+.list{
+    margin: 1rem 0 1rem 4.5rem;
+}
+
+.list ul li{
+    padding: .5rem 0;
+    font-size: 28px;
+}
+
+.list ul li a{
+    text-decoration: none;
+    font-size: 28px;
+    color: #fff;
+}
+
+.extra{
+    margin: 3rem 0 2rem 0;
+}
+
+.extra h2{
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin: 0 3rem;
+    padding: .5rem 2rem;
+    background-color: #000;
+    font-size: 40px;
+}
+
+.extra ul{
+    margin: 1rem 3rem 0 4rem;
+}
+
+.extra ul li{
+    padding-bottom: 1rem;
+    font-size: 28px;
+}
+
+.extra p{
+    font-size: 28px;
+    line-height: 2rem;
+}
+
+/* Experience */
+
+.experience{
+    /* border: 2px solid orangered; */
+    margin-top: .5rem;
+}
+
+.experience h2{
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin: 0 3rem;
+    padding: .5rem 2rem;
+    background-color: #000;
+    font-size: 40px;
+}
+
+.experience p{
+    margin: 1rem 3rem 2rem 3rem;
+    font-size: 28px;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+.right-content{
+    background-color: #000;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.right-content img{
+    display: block;
+    width: 150px;
+    height: 170px;
+    /* border-radius: 50%; */
+    border-radius: 5px 30px;
+    margin: 5rem auto 1rem auto;
+    border: 3px solid #fff;
+}
+
+.right-content h1{
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 6rem;
+    font-size: 40px;
+}
+
+/* Skills */
+
+.skill{
+    color: #fff;
+    margin: 3rem 0 2rem 0;
+    /* border: 2px solid red; */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.skill h2{
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 32px;
+}
+
+.s-line{
+    /* border-bottom: 5px solid #fff; */
+    height: 25px;
+    /* margin: 1rem 0 1rem 3rem; */
+    margin: .5rem 2rem 2rem 2rem;
+    width: 80%;
+    background-color: #fff;
+}
+
+.hs, .cs, .rs, .js, .gs{
+    height: 25px;
+    background-color: #020260;
+}
+
+.hs{
+    width: 90%;
+}
+
+.cs{
+    width: 75%;
+}
+
+.rs{
+    width: 75%;
+}
+
+.js{
+    width: 20%;
+}
+
+.gs{
+    width: 50%;
+}
+
+.skill p{
+    /* margin: 0 3rem; */
+    margin-left: 2rem;
+    font-size: 30px;
+}
+
+/* Languages */
+
+.lang{
+    color: #fff;
+    margin: 4rem 0 2rem 0;
+    /* border: 2px solid orange; */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.lang h2{
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 32px;
+}
+
+.l-line{
+    /* border-bottom: 5px solid #fff; */
+    height: 25px;
+    /* margin: 1rem 0 1rem 3rem; */
+    margin: .5rem 2rem 2rem 2rem;
+    width: 80%;
+    background-color: #fff;
+}
+
+.kl, .el, .hl{
+    height: 25px;
+    /* background-color: #0000ff; */
+    background-color: #020260;
+}
+
+.kl{
+    width: 90%;
+}
+
+.el{
+    width: 80%;
+}
+
+.hl{
+    width: 50%;
+}
+
+.lang p{
+    /* margin: 0 3rem; */
+    margin-left: 2rem;
+    font-size: 30px;
+}
+
+.contact{
+    color: #fff;
+    margin: 4rem .5rem;
+    /* border: 2px solid red; */
+    letter-spacing: 2px;
+    font-size: 28px;
+}
+
+.contact h2{
+    text-align: center;
+    margin: 1rem 0 2.5rem 0;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+.contact a{
+    display: flex;
+    text-decoration: none;
+    margin-left: .2rem;
+    color: #fff;
+}
+
+.contact p{
+    margin-left: .2rem;
+    line-height: 2.5rem;
+}
+
+.contact i{
+    font-size: 35px;
+    padding-right: 1rem;
+}
