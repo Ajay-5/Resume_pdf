@@ -61,7 +61,7 @@
 /* Education */
 
 .education{
-    margin: 3rem 0;
+    margin: 2rem 0;
     /* border: 2px solid darkgoldenrod; */
 }
 
@@ -106,7 +106,7 @@
 }
 
 .list{
-    margin: 1rem 0 1rem 2.5rem;
+    margin: 1rem 0 0 2.5rem;
 }
 
 .list ul li{
@@ -122,7 +122,7 @@
 }
 
 .extra{
-    margin: 3rem 0 2rem 0;
+    margin: 2rem 0;
 }
 
 .extra h2{
@@ -151,6 +151,10 @@
 }
 
 /* Experience */
+
+.experience{
+    margin-top: -1rem;
+}
 
 .experience h2{
     text-transform: uppercase;
