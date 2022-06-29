@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: serif;
 }
 
 /* Container */
@@ -16,7 +17,7 @@
     /* background: rgb(2,0,36); */
     /* background: linear-gradient(128deg, rgba(2,0,36,1) 0%, rgba(2,2,64,1) 50%, rgba(2,0,36,1) 100%); */
     /* color: #fff; */
-    background-color: rgb(220, 218, 218);
+    background-color: #fff;
     color: #000;
     letter-spacing: 2px;
     border-radius: 10px;
@@ -30,7 +31,7 @@
     font-size: 2.5rem;
     /* border-bottom: 5px double #fff; */
     padding-bottom: 1rem;
-    font-size: 50px;
+    font-size: 55px;
 }
 
 /* Profile */
@@ -44,18 +45,17 @@
     text-transform: uppercase;
     font-size: 1.7rem;
     font-weight: bold;
-    margin: 0 3rem;
+    margin: 0 3rem 0 1rem;
     padding: .5rem 2rem;
     /* background-color: #000; */
-    background-color: rgb(135, 135, 135);
-    font-size: 40px;
+    background-color: rgb(227, 226, 226);
+    font-size: 45px;
 }
 
 .profile p{
-    margin: 1rem 3rem 0 3rem;
-    font-size: 28px;
-    line-height: 2rem;
-    text-align: justify;
+    margin: 1rem 3rem 0 1rem;
+    font-size: 31.8px;
+    line-height: 2.5rem;
 }
 
 /* Education */
@@ -69,23 +69,23 @@
     text-transform: uppercase;
     font-size: 1.7rem;
     font-weight: bold;
-    margin: 0 3rem;
+    margin: 0 3rem 0 1rem;
     padding: .5rem 2rem;
     /* background-color: #000; */
-    background-color: rgb(135, 135, 135);
-    font-size: 40px;
+    background-color: rgb(227, 226, 226);
+    font-size: 45px;
 }
 
 .cls{
-    margin: 1rem 3rem;
-    font-size: 28px;
+    margin: 1rem 3rem 0 1rem;
+    font-size: 32px;
     text-transform: uppercase;
     font-size: bold;
 }
 
 .uname, .year{
-    margin: 1rem 0 1rem 5rem;
-    font-size: 27px;
+    margin: 1rem 0 1rem 2rem;
+    font-size: 31px;
 }
 
 .pu{
@@ -94,33 +94,29 @@
 
 /* .portfolio */
 
-/* .portfolio{
-    border: 2px solid red;
-} */
-
 .portfolio h2{
     text-transform: uppercase;
     font-size: 1.7rem;
     font-weight: bold;
-    margin: 0 3rem;
+    margin: 0 3rem 0 1rem;
     padding: .5rem 2rem;
     /* background-color: #000; */
-    background-color: rgb(135, 135, 135);
-    font-size: 40px;
+    background-color: rgb(227, 226, 226);
+    font-size: 45px;
 }
 
 .list{
-    margin: 1rem 0 1rem 4.5rem;
+    margin: 1rem 0 1rem 2.5rem;
 }
 
 .list ul li{
     padding: .5rem 0;
-    font-size: 28px;
+    font-size: 32px;
 }
 
 .list ul li a{
     text-decoration: none;
-    font-size: 28px;
+    font-size: 32px;
     /* color: #fff; */
     color: #000;
 }
@@ -133,66 +129,60 @@
     text-transform: uppercase;
     font-size: 1.7rem;
     font-weight: bold;
-    margin: 0 3rem;
+    margin: 0 3rem 0 1rem;
     padding: .5rem 2rem;
     /* background-color: #000; */
-    background-color: rgb(135, 135, 135);
-    font-size: 40px;
+    background-color: rgb(227, 226, 226);
+    font-size: 45px;
 }
 
 .extra ul{
-    margin: 1rem 3rem 0 4rem;
+    margin: 1rem 3rem 0 3rem;
 }
 
 .extra ul li{
     padding-bottom: 1rem;
-    font-size: 28px;
+    font-size: 32px;
 }
 
 .extra p{
-    font-size: 28px;
-    line-height: 2rem;
+    font-size: 31.8px;
+    line-height: 2.5rem;
 }
 
 /* Experience */
-
-.experience{
-    /* border: 2px solid orangered; */
-    margin-top: .5rem;
-}
 
 .experience h2{
     text-transform: uppercase;
     font-size: 1.7rem;
     font-weight: bold;
-    margin: 0 3rem;
+    margin: 0 3rem 0 1rem;
     padding: .5rem 2rem;
     /* background-color: #000; */
-    background-color: rgb(135, 135, 135);
-    font-size: 40px;
+    background-color: rgb(227, 226, 226);
+    font-size: 45px;
 }
 
 .experience p{
-    margin: 1rem 3rem 2rem 3rem;
-    font-size: 28px;
-    line-height: 2rem;
-    text-align: justify;
+    margin: 1rem 3rem 2rem 1rem;
+    font-size: 31.8px;
+    line-height: 2.5rem;
 }
 
 .right-content{
     /* background-color: #000; */
-    background-color: rgb(85, 83, 83);
+    background-color: rgb(227, 226, 226);
     border-radius: 10px;
     width: 30%;
 }
 
 .right-content img{
     display: block;
-    width: 150px;
-    height: 170px;
+    width: 160px;
+    height: 180px;
     /* border-radius: 50%; */
     border-radius: 5px 30px;
-    margin: 5rem auto 1rem auto;
+    margin: 7.5rem auto 1rem auto;
     /* border: 3px solid #fff; */
     border: 3px solid black;
 }
@@ -203,7 +193,7 @@
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 6rem;
-    font-size: 40px;
+    font-size: 45px;
 }
 
 /* Skills */
@@ -220,7 +210,7 @@
 .skill h2{
     text-align: center;
     margin-bottom: 3rem;
-    font-size: 32px;
+    font-size: 34px;
 }
 
 .s-line{
@@ -230,7 +220,7 @@
     margin: .5rem 2rem 2rem 2rem;
     width: 80%;
     /* background-color: #fff; */
-    background-color: rgb(220, 218, 218);
+    background-color: #fff;
 }
 
 .hs, .cs, .rs, .js, .gs{
@@ -262,7 +252,7 @@
 .skill p{
     /* margin: 0 3rem; */
     margin-left: 2rem;
-    font-size: 30px;
+    font-size: 32px;
 }
 
 /* Languages */
@@ -279,7 +269,7 @@
 .lang h2{
     text-align: center;
     margin-bottom: 3rem;
-    font-size: 32px;
+    font-size: 34px;
 }
 
 .l-line{
@@ -289,7 +279,7 @@
     margin: .5rem 2rem 2rem 2rem;
     width: 80%;
     /* background-color: #fff; */
-    background-color: rgb(220, 218, 218);
+    background-color: #fff;
 }
 
 .kl, .el, .hl{
@@ -313,23 +303,23 @@
 .lang p{
     /* margin: 0 3rem; */
     margin-left: 2rem;
-    font-size: 30px;
+    font-size: 32px;
 }
 
 .contact{
     /* color: #fff; */
     color: #000;
-    margin: 4rem .5rem;
+    margin: 4rem .3rem;
     /* border: 2px solid red; */
     letter-spacing: 2px;
-    font-size: 28px;
+    font-size: 29px;
 }
 
 .contact h2{
     text-align: center;
     margin: 1rem 0 2.5rem 0;
     text-transform: uppercase;
-    font-size: 32px;
+    font-size: 34px;
 }
 
 .contact a{
