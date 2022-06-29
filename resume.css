@@ -27,7 +27,7 @@
 .left-content h1{
     text-transform: uppercase;
     text-align: center;
-    margin-top: .5rem;
+    /* margin-top: .5rem; */
     font-size: 2.5rem;
     /* border-bottom: 5px double #fff; */
     padding-bottom: 1rem;
@@ -309,7 +309,7 @@
 .contact{
     /* color: #fff; */
     color: #000;
-    margin: 4rem .3rem 1rem .3rem;
+    margin: 4rem .3rem 0 .3rem;
     /* border: 2px solid red; */
     letter-spacing: 2px;
     font-size: 29px;
