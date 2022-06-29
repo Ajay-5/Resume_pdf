@@ -14,11 +14,11 @@
 
 .left-content{
     width: 70%;
-    /* background: rgb(2,0,36); */
-    /* background: linear-gradient(128deg, rgba(2,0,36,1) 0%, rgba(2,2,64,1) 50%, rgba(2,0,36,1) 100%); */
-    /* color: #fff; */
-    background-color: #fff;
-    color: #000;
+    background: rgb(2,0,36);
+    background: linear-gradient(128deg, rgba(2,0,36,1) 0%, rgba(2,2,64,1) 50%, rgba(2,0,36,1) 100%);
+    color: #fff;
+    /* background-color: #fff; */
+    /* color: #000; */
     letter-spacing: 2px;
     border-radius: 10px;
     margin-right: 2px;
@@ -47,8 +47,8 @@
     font-weight: bold;
     margin: 0 3rem 0 1rem;
     padding: .5rem 2rem;
-    /* background-color: #000; */
-    background-color: rgb(227, 226, 226);
+    background-color: #000;
+    /* background-color: rgb(227, 226, 226); */
     font-size: 45px;
 }
 
@@ -71,8 +71,8 @@
     font-weight: bold;
     margin: 0 3rem 0 1rem;
     padding: .5rem 2rem;
-    /* background-color: #000; */
-    background-color: rgb(227, 226, 226);
+    background-color: #000;
+    /* background-color: rgb(227, 226, 226); */
     font-size: 45px;
 }
 
@@ -100,8 +100,8 @@
     font-weight: bold;
     margin: 0 3rem 0 1rem;
     padding: .5rem 2rem;
-    /* background-color: #000; */
-    background-color: rgb(227, 226, 226);
+    background-color: #000;
+    /* background-color: rgb(227, 226, 226); */
     font-size: 45px;
 }
 
@@ -117,8 +117,8 @@
 .list ul li a{
     text-decoration: none;
     font-size: 32px;
-    /* color: #fff; */
-    color: #000;
+    color: #fff;
+    /* color: #000; */
 }
 
 .extra{
@@ -131,8 +131,8 @@
     font-weight: bold;
     margin: 0 3rem 0 1rem;
     padding: .5rem 2rem;
-    /* background-color: #000; */
-    background-color: rgb(227, 226, 226);
+    background-color: #000;
+    /* background-color: rgb(227, 226, 226); */
     font-size: 45px;
 }
 
@@ -162,8 +162,8 @@
     font-weight: bold;
     margin: 0 3rem 0 1rem;
     padding: .5rem 2rem;
-    /* background-color: #000; */
-    background-color: rgb(227, 226, 226);
+    background-color: #000;
+    /* background-color: rgb(227, 226, 226); */
     font-size: 45px;
 }
 
@@ -174,8 +174,8 @@
 }
 
 .right-content{
-    /* background-color: #000; */
-    background-color: rgb(227, 226, 226);
+    background-color: #000;
+    /* background-color: rgb(227, 226, 226); */
     border-radius: 10px;
     width: 30%;
 }
@@ -187,13 +187,13 @@
     /* border-radius: 50%; */
     border-radius: 5px 30px;
     margin: 5.5rem auto 1rem auto;
-    /* border: 3px solid #fff; */
-    border: 3px solid black;
+    border: 3px solid #fff;
+    /* border: 3px solid black; */
 }
 
 .right-content h1{
-    /* color: #fff; */
-    color: #000;
+    color: #fff;
+    /* color: #000; */
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 2rem;
@@ -203,8 +203,8 @@
 /* Skills */
 
 .skill{
-    /* color: #fff; */
-    color: #000;
+    color: #fff;
+    /* color: #000; */
     margin: 4rem 0 2rem 0;
     /* border: 2px solid red; */
     text-transform: uppercase;
@@ -223,14 +223,14 @@
     /* margin: 1rem 0 1rem 3rem; */
     margin: .5rem 2rem 2rem 2rem;
     width: 80%;
-    /* background-color: #fff; */
     background-color: #fff;
+    /* background-color: #fff; */
 }
 
 .hs, .cs, .rs, .js, .gs{
     height: 25px;
-    /* background-color: #020260; */
-    background-color: #000;
+    background-color: #020260;
+    /* background-color: #000; */
 }
 
 .hs{
@@ -262,8 +262,8 @@
 /* Languages */
 
 .lang{
-    /* color: #fff; */
-    color: #000;
+    color: #fff;
+    /* color: #000; */
     margin: 4rem 0 2rem 0;
     /* border: 2px solid orange; */
     text-transform: uppercase;
@@ -282,14 +282,14 @@
     /* margin: 1rem 0 1rem 3rem; */
     margin: .5rem 2rem 2rem 2rem;
     width: 80%;
-    /* background-color: #fff; */
     background-color: #fff;
+    /* background-color: #fff; */
 }
 
 .kl, .el, .hl{
     height: 25px;
-    /* background-color: #020260; */
-    background-color: #000;
+    background-color: #020260;
+    /* background-color: #000; */
 }
 
 .kl{
@@ -311,8 +311,8 @@
 }
 
 .contact{
-    /* color: #fff; */
-    color: #000;
+    color: #fff;
+    /* color: #000; */
     margin: 4rem .3rem 0 .3rem;
     /* border: 2px solid red; */
     letter-spacing: 2px;
@@ -330,8 +330,8 @@
     display: flex;
     text-decoration: none;
     margin-left: .2rem;
-    /* color: #fff; */
-    color: #000;
+    color: #fff;
+    /* color: #000; */
 }
 
 .contact p{
